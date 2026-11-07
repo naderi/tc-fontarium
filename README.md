@@ -7,6 +7,8 @@ Press F3 on a font file (TTF, OTF, TTC, WOFF, WOFF2) and see it right there – 
 
 ![Fontarium showing the variable font Bahnschrift with its axes](docs/screenshot.png)
 
+![Color emoji in the Characters tab](docs/screenshot-emoji.png)
+
 ## Features
 
 - **Preview:** uppercase, lowercase, digits & symbols, a sample sentence, your own text and a size ladder; one button per face of the font

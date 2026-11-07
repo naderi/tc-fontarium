@@ -7,6 +7,8 @@ F3 auf einer Schriftdatei (TTF, OTF, TTC, WOFF, WOFF2) – und sie erscheint sof
 
 ![Fontarium zeigt die variable Schrift Bahnschrift mit ihren Achsen](docs/screenshot.png)
 
+![Farbige Emoji im Reiter Zeichen](docs/screenshot-emoji.png)
+
 ## Funktionen
 
 - **Vorschau:** Großbuchstaben, Kleinbuchstaben, Ziffern & Symbole, ein Beispielsatz, eigener Text und Größenstufen; eine Schaltfläche pro Schnitt der Schrift
