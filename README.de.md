@@ -16,7 +16,7 @@ F3 auf einer Schriftdatei (TTF, OTF, TTC, WOFF, WOFF2) – und sie erscheint sof
 - **OpenType-Features:** aufgeführt werden nur Features, die die Schrift enthält; ein Klick schaltet um: *Standard → an → aus*
 - **Eigener Text:** mehrzeilig möglich, jede Zeile wird für sich gesetzt (mit eigener Richtung und Sprache) – so lassen sich z. B. Persisch und Deutsch mischen. Richtung und Sprache lassen sich auch in den Einstellungen festlegen
 - **Zeichen:** eine Schaltfläche *Alle* (standardmäßig gewählt) zeigt alle Zeichen der Schrift in einem Raster; darunter alle Unicode-Blöcke der Schrift, Abdeckung (z. B. *120 von 256 Zeichen*), *Fehlende anzeigen* und ein Glyphen-Inspektor mit Glyphen-Nummer, Vorschub, Rändern, Umrissgröße sowie Einzel-, Anfangs-, Mittel- und Endform. Farbige Zeichen wie Emoji werden farbig gezeichnet. Doppelklick oder Enter öffnet die Detailansicht
-- **Details:** Namen, Rechtliches (Copyright, Designer, Lizenz, mit Links), Technik (Format, Dateigröße, Glyphen, Schnitte in der Datei, variable Achsen, Metriken) und die unterstützten Sprachen
+- **Details:** Namen, Rechtliches (Copyright, Designer, Lizenz, mit Links), Technik (Format, Dateigröße, Glyphen, Schnitte in der Datei, variable Achsen, Metriken) und die unterstützten Sprachen; ein Klick auf einen Wert kopiert ihn in die Zwischenablage
 - **Installiert:** alle auf diesem PC installierten Schriften, mit Vorschau rechts
 - **Ordner:** die Schriften aus dem Ordner der geöffneten Datei oder aus einem gewählten Ordner (auf Wunsch mit Unterordnern)
 - **Installieren, Deinstallieren, Aktivieren, Deaktivieren** in den Reitern *Installiert* und *Ordner*. Webfonts (WOFF, WOFF2) lassen sich nicht installieren; Systemschriften lassen sich nur mit Administratorrechten entfernen
