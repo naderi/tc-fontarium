@@ -37,7 +37,7 @@ Press F3 on a font file (TTF, OTF, TTC, WOFF, WOFF2) and see it right there – 
 1. Download **`Fontarium.zip`** from the [latest release](https://github.com/naderi/tc-fontarium/releases/latest).
 2. Open the ZIP in Total Commander (Enter on the file) and confirm the question whether to install the plugin.
 
-Settings are stored in `Fontarium.ini` next to the plugin (in `%APPDATA%\Fontarium` if that folder is read-only) and can be changed in the *Settings* tab. Requires Windows 10 version 1803 or newer.
+Settings are stored in `Fontarium.ini` next to the plugin (in `%APPDATA%\Fontarium` if that folder is read-only) and can be changed in the *Settings* tab. To open on another tab (e.g. *Characters*) instead of *Preview*, set `starttab=1` in the ini (0 Preview, 1 Characters, 2 Details, 3 Installed, 4 Folder). Requires Windows 10 version 1803 or newer.
 
 ## License
 

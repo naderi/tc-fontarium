@@ -37,7 +37,7 @@ F3 auf einer Schriftdatei (TTF, OTF, TTC, WOFF, WOFF2) – und sie erscheint sof
 1. **`Fontarium.zip`** vom [neuesten Release](https://github.com/naderi/tc-fontarium/releases/latest) herunterladen.
 2. Das ZIP im Total Commander öffnen (Enter auf der Datei) und die Frage nach der Installation des Plugins bestätigen.
 
-Die Einstellungen liegen in `Fontarium.ini` neben dem Plugin (in `%APPDATA%\Fontarium`, wenn dieser Ordner schreibgeschützt ist) und lassen sich im Reiter *Einstellungen* ändern. Benötigt Windows 10 ab Version 1803.
+Die Einstellungen liegen in `Fontarium.ini` neben dem Plugin (in `%APPDATA%\Fontarium`, wenn dieser Ordner schreibgeschützt ist) und lassen sich im Reiter *Einstellungen* ändern. Um statt mit *Vorschau* mit einem anderen Reiter (z. B. *Zeichen*) zu starten, setze in der ini `starttab=1` (0 Vorschau, 1 Zeichen, 2 Details, 3 Installiert, 4 Ordner). Benötigt Windows 10 ab Version 1803.
 
 ## Lizenz
 
