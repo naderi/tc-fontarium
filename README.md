@@ -3,7 +3,7 @@
 **English** | [Deutsch](README.de.md)
 
 A font viewer (Lister plugin) for [Total Commander](https://www.ghisler.com), 32 and 64 bit.
-Press F3 on a font file (TTF, OTF, TTC, WOFF, WOFF2) and see it right there – drawn with DirectWrite, so Persian, Arabic and other scripts are rendered correctly. Variable fonts get sliders for their axes, OpenType features can be switched on and off, and a glyph inspector shows every character. Native, no runtime, nothing to install besides the plugin.
+Press F3 on a font file (TTF, OTF, TTC, WOFF, WOFF2, and Windows bitmap fonts: FON) and see it right there – drawn with DirectWrite, so Persian, Arabic and other scripts are rendered correctly. Variable fonts get sliders for their axes, OpenType features can be switched on and off, and a glyph inspector shows every character. Native, no runtime, nothing to install besides the plugin.
 
 Fontarium was inspired by the FontMaster plugin. I wrote it because I wanted full support for right-to-left languages such as Persian and Arabic.
 
@@ -23,6 +23,8 @@ Fontarium was inspired by the FontMaster plugin. I wrote it because I wanted ful
 - **Installed:** all fonts installed on this PC, with preview on the right
 - **Folder:** the fonts in the folder of the opened file, or in a folder you choose (optionally with subfolders)
 - **Install, uninstall, activate, deactivate** fonts from the *Installed* and *Folder* tabs. *Install* offers *Install for current user* and *Install for all users* (Windows asks for administrator rights once, for all selected fonts). Web fonts (WOFF, WOFF2) cannot be installed; system fonts can only be removed with administrator rights
+- **Bitmap fonts (.fon):** Windows raster fonts such as those in `C:\Windows\Fonts` are shown pixel by pixel, with all tabs; a file with several sizes gets one button per size. Vector `.fon` files are not supported; `.fon` files cannot be installed
+- **Next / previous font:** Left / Right (or PgUp / PgDn at the end of the page) open the previous / next font file of the folder, like an image viewer
 - Light and dark design (automatic like Windows, fixed, or like Total Commander) in the Windows 11 look; anti-aliasing ClearType, grayscale or off; color glyphs on or off; interface size from 100 % to 200 %
 - English and German user interface (follows the Windows language, or choose it in the settings)
 
@@ -34,13 +36,14 @@ Fontarium was inspired by the FontMaster plugin. I wrote it because I wanted ful
 | Ctrl+PgUp / PgDn | Previous / next face |
 | Ctrl + mouse wheel, Ctrl + + / − | Size |
 | Arrow keys, PgUp / PgDn, Home / End | Scroll |
+| Left / Right (not in *Characters*), PgUp / PgDn at the end of the page | Previous / next font file in the folder |
 
 ## Download and installation
 
 1. Download **`Fontarium.zip`** from the [latest release](https://github.com/naderi/tc-fontarium/releases/latest).
 2. Open the ZIP in Total Commander (Enter on the file) and confirm the question whether to install the plugin.
 
-Settings are stored in `Fontarium.ini` next to the plugin (in `%APPDATA%\Fontarium` if that folder is read-only) and can be changed in the *Settings* tab. To open on another tab (e.g. *Characters*) instead of *Preview*, set `starttab=1` in the ini (0 Preview, 1 Characters, 2 Details, 3 Installed, 4 Folder, 5 Coverage). To hide the outline nodes in the glyph view, set `nodes=0` (default 1; the *Nodes* button in the glyph view switches it, too). Requires Windows 10 version 1803 or newer.
+Settings are stored in `Fontarium.ini` next to the plugin (in `%APPDATA%\Fontarium` if that folder is read-only) and can be changed in the *Settings* tab. To open on another tab (e.g. *Characters*) instead of *Preview*, set `starttab=1` in the ini (0 Preview, 1 Characters, 2 Details, 3 Installed, 4 Folder, 5 Coverage). To hide the outline nodes in the glyph view, set `nodes=0` (default 1; the *Nodes* button in the glyph view switches it, too). To switch off the file switching with Left / Right, set `filenav=0` (default 1). Requires Windows 10 version 1803 or newer.
 
 ## License
 

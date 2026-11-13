@@ -3,7 +3,7 @@
 [English](README.md) | **Deutsch**
 
 Ein Schriftbetrachter (Lister-Plugin) für den [Total Commander](https://www.ghisler.com), 32 und 64 Bit.
-F3 auf einer Schriftdatei (TTF, OTF, TTC, WOFF, WOFF2) – und sie erscheint sofort, gezeichnet mit DirectWrite, sodass Persisch, Arabisch und andere Schriften korrekt dargestellt werden. Variable Schriften bekommen Regler für ihre Achsen, OpenType-Features lassen sich ein- und ausschalten, und ein Glyphen-Inspektor zeigt jedes Zeichen. Nativ, ohne Laufzeitumgebung, außer dem Plugin muss nichts installiert werden.
+F3 auf einer Schriftdatei (TTF, OTF, TTC, WOFF, WOFF2 und Windows-Bitmap-Schriften: FON) – und sie erscheint sofort, gezeichnet mit DirectWrite, sodass Persisch, Arabisch und andere Schriften korrekt dargestellt werden. Variable Schriften bekommen Regler für ihre Achsen, OpenType-Features lassen sich ein- und ausschalten, und ein Glyphen-Inspektor zeigt jedes Zeichen. Nativ, ohne Laufzeitumgebung, außer dem Plugin muss nichts installiert werden.
 
 Fontarium wurde vom Plugin FontMaster inspiriert. Ich habe es geschrieben, weil ich volle Unterstützung für Sprachen mit Schreibrichtung von rechts nach links wie Persisch und Arabisch haben wollte.
 
@@ -23,6 +23,8 @@ Fontarium wurde vom Plugin FontMaster inspiriert. Ich habe es geschrieben, weil 
 - **Installiert:** alle auf diesem PC installierten Schriften, mit Vorschau rechts
 - **Ordner:** die Schriften aus dem Ordner der geöffneten Datei oder aus einem gewählten Ordner (auf Wunsch mit Unterordnern)
 - **Installieren, Deinstallieren, Aktivieren, Deaktivieren** in den Reitern *Installiert* und *Ordner*. *Installieren* bietet *Für aktuellen Benutzer installieren* und *Für alle Benutzer installieren* (Windows fragt einmal nach Administratorrechten, für alle gewählten Schriften). Webfonts (WOFF, WOFF2) lassen sich nicht installieren; Systemschriften lassen sich nur mit Administratorrechten entfernen
+- **Bitmap-Schriften (.fon):** Windows-Rasterschriften wie die in `C:\Windows\Fonts` werden Pixel für Pixel angezeigt, mit allen Reitern; eine Datei mit mehreren Größen bekommt eine Schaltfläche je Größe. Vektor-`.fon`-Dateien werden nicht unterstützt; `.fon`-Dateien lassen sich nicht installieren
+- **Nächste / vorherige Schrift:** Links / Rechts (oder Bild↑ / Bild↓ am Seitenende) öffnen die vorherige / nächste Schriftdatei des Ordners, wie in einem Bildbetrachter
 - Helles und dunkles Design (automatisch wie Windows, fest oder wie Total Commander) im Windows-11-Stil; Kantenglättung ClearType, Graustufen oder aus; farbige Zeichen an oder aus; Größe der Oberfläche von 100 % bis 200 %
 - Oberfläche auf Deutsch und Englisch (folgt der Windows-Sprache oder in den Einstellungen wählbar)
 
@@ -34,13 +36,14 @@ Fontarium wurde vom Plugin FontMaster inspiriert. Ich habe es geschrieben, weil 
 | Strg+Bild↑ / Bild↓ | Vorheriger / nächster Schnitt |
 | Strg + Mausrad, Strg + + / − | Größe |
 | Pfeiltasten, Bild↑ / Bild↓, Pos1 / Ende | Scrollen |
+| Links / Rechts (nicht in *Zeichen*), Bild↑ / Bild↓ am Seitenende | Vorherige / nächste Schriftdatei im Ordner |
 
 ## Download und Installation
 
 1. **`Fontarium.zip`** vom [neuesten Release](https://github.com/naderi/tc-fontarium/releases/latest) herunterladen.
 2. Das ZIP im Total Commander öffnen (Enter auf der Datei) und die Frage nach der Installation des Plugins bestätigen.
 
-Die Einstellungen liegen in `Fontarium.ini` neben dem Plugin (in `%APPDATA%\Fontarium`, wenn dieser Ordner schreibgeschützt ist) und lassen sich im Reiter *Einstellungen* ändern. Um statt mit *Vorschau* mit einem anderen Reiter (z. B. *Zeichen*) zu starten, setze in der ini `starttab=1` (0 Vorschau, 1 Zeichen, 2 Details, 3 Installiert, 4 Ordner, 5 Abdeckung). Um die Knoten in der Glyphenansicht auszublenden, setze `nodes=0` (Standard 1; die Schaltfläche *Knoten* in der Glyphenansicht schaltet es ebenfalls um). Benötigt Windows 10 ab Version 1803.
+Die Einstellungen liegen in `Fontarium.ini` neben dem Plugin (in `%APPDATA%\Fontarium`, wenn dieser Ordner schreibgeschützt ist) und lassen sich im Reiter *Einstellungen* ändern. Um statt mit *Vorschau* mit einem anderen Reiter (z. B. *Zeichen*) zu starten, setze in der ini `starttab=1` (0 Vorschau, 1 Zeichen, 2 Details, 3 Installiert, 4 Ordner, 5 Abdeckung). Um die Knoten in der Glyphenansicht auszublenden, setze `nodes=0` (Standard 1; die Schaltfläche *Knoten* in der Glyphenansicht schaltet es ebenfalls um). Um das Wechseln der Datei mit Links / Rechts abzuschalten, setze `filenav=0` (Standard 1). Benötigt Windows 10 ab Version 1803.
 
 ## Lizenz
 
