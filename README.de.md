@@ -11,6 +11,8 @@ Fontarium wurde vom Plugin FontMaster inspiriert. Ich habe es geschrieben, weil 
 
 ![Farbige Emoji im Reiter Zeichen](docs/screenshot-emoji.png)
 
+![Das Rechtsklick-Menü eines Zeichens](docs/screenshot-menu.png)
+
 ## Funktionen
 
 - **Vorschau:** Großbuchstaben, Kleinbuchstaben, Ziffern & Symbole, ein Beispielsatz, eigener Text und Größenstufen; eine Schaltfläche pro Schnitt der Schrift. Ein Regler stellt die Vorschaugröße ein, und ein Knopf *Installieren* installiert die Schrift für den aktuellen Benutzer oder für alle Benutzer

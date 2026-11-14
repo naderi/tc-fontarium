@@ -11,6 +11,8 @@ Fontarium was inspired by the FontMaster plugin. I wrote it because I wanted ful
 
 ![Color emoji in the Characters tab](docs/screenshot-emoji.png)
 
+![The right-click menu of a character](docs/screenshot-menu.png)
+
 ## Features
 
 - **Preview:** uppercase, lowercase, digits & symbols, a sample sentence, your own text and a size ladder; one button per face of the font. A slider sets the preview size, and an *Install* button installs the font for the current user or for all users
