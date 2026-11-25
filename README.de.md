@@ -47,6 +47,14 @@ Fontarium wurde vom Plugin FontMaster inspiriert. Ich habe es geschrieben, weil 
 
 Die Einstellungen liegen in `Fontarium.ini` neben dem Plugin (in `%APPDATA%\Fontarium`, wenn dieser Ordner schreibgeschützt ist) und lassen sich im Reiter *Einstellungen* ändern. Um statt mit *Vorschau* mit einem anderen Reiter (z. B. *Zeichen*) zu starten, setze in der ini `starttab=1` (0 Vorschau, 1 Zeichen, 2 Details, 3 Installiert, 4 Ordner, 5 Abdeckung). Um die Knoten in der Glyphenansicht auszublenden, setze `nodes=0` (Standard 1; die Schaltfläche *Knoten* in der Glyphenansicht schaltet es ebenfalls um). Um das Wechseln der Datei mit Links / Rechts abzuschalten, setze `filenav=0` (Standard 1). Benötigt Windows 10 ab Version 1803.
 
+## Sprachen
+
+Fontarium gibt es auf Englisch, Deutsch, Spanisch, Französisch, Russisch, Ukrainisch, Chinesisch (vereinfacht), Hindi, Portugiesisch und Persisch. Es folgt der Windows-Anzeigesprache; eine andere Sprache wählst du über die Registerkarte *Einstellungen* (*Sprache der Oberfläche*) oder mit `lang=<Name oder Kürzel>` in der `Fontarium.ini` (zum Beispiel `Persian` oder `fa`; `auto` folgt Windows).
+
+Die Texte stehen in einfachen `.lng`-Dateien im Ordner `Languages`. Für eine neue Sprache kopierst du `Languages\Template.lng`, übersetzt die rechten Seiten und speicherst sie unter einem neuen Namen – sie erscheint dann in der Sprachliste.
+
+Korrekturen und neue Übersetzungen von Muttersprachlern sind sehr willkommen – schick sie bitte als [Issue](https://github.com/naderi/tc-fontarium/issues) in diesem Repository.
+
 ## Lizenz
 
 Freeware – kostenlos nutzbar, aber **nicht zum Verkauf**. Siehe [LICENSE](LICENSE). Fontarium enthält [Brotli](https://github.com/google/brotli) und [woff2](https://github.com/google/woff2) von Google (MIT-Lizenz), um WOFF- und WOFF2-Schriften zu lesen.

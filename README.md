@@ -47,6 +47,14 @@ Fontarium was inspired by the FontMaster plugin. I wrote it because I wanted ful
 
 Settings are stored in `Fontarium.ini` next to the plugin (in `%APPDATA%\Fontarium` if that folder is read-only) and can be changed in the *Settings* tab. To open on another tab (e.g. *Characters*) instead of *Preview*, set `starttab=1` in the ini (0 Preview, 1 Characters, 2 Details, 3 Installed, 4 Folder, 5 Coverage). To hide the outline nodes in the glyph view, set `nodes=0` (default 1; the *Nodes* button in the glyph view switches it, too). To switch off the file switching with Left / Right, set `filenav=0` (default 1). Requires Windows 10 version 1803 or newer.
 
+## Languages
+
+Fontarium speaks English, German, Spanish, French, Russian, Ukrainian, Chinese (Simplified), Hindi, Portuguese and Persian. It follows the Windows display language; to pick another one, use the *Settings* tab (*Interface language*) or set `lang=<name or code>` in `Fontarium.ini` (for example `Persian` or `fa`; `auto` follows Windows).
+
+The texts are plain `.lng` files in the `Languages` folder. To add a language, copy `Languages\Template.lng`, translate the right-hand sides and save it under a new name – it appears in the language list.
+
+Corrections and new translations from native speakers are very welcome – please send them as an [issue](https://github.com/naderi/tc-fontarium/issues) on this repository.
+
 ## License
 
 Freeware – free to use, but **not for sale**. See [LICENSE](LICENSE). Fontarium contains [Brotli](https://github.com/google/brotli) and [woff2](https://github.com/google/woff2) by Google (MIT license) to read WOFF and WOFF2 fonts.
