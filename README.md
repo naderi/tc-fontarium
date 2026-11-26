@@ -49,7 +49,7 @@ Settings are stored in `Fontarium.ini` next to the plugin (in `%APPDATA%\Fontari
 
 ## Languages
 
-Fontarium speaks English, German, Spanish, French, Russian, Ukrainian, Chinese (Simplified), Hindi, Portuguese and Persian. It follows the Windows display language; to pick another one, use the *Settings* tab (*Interface language*) or set `lang=<name or code>` in `Fontarium.ini` (for example `Persian` or `fa`; `auto` follows Windows).
+Fontarium speaks English, German, Spanish, French, Russian, Ukrainian, Chinese (Simplified), Hindi, Portuguese and Persian. It follows the Windows display language; to pick another one, use the *Settings* tab (*Interface language*) or set `lang=<name or code>` in `Fontarium.ini` (for example `Persian` or `fa`; `auto` follows Windows, `tc` follows Total Commander's own language – also the entry *Like Total Commander*).
 
 The texts are plain `.lng` files in the `Languages` folder. To add a language, copy `Languages\Template.lng`, translate the right-hand sides and save it under a new name – it appears in the language list.
 

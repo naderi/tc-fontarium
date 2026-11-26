@@ -49,7 +49,7 @@ Die Einstellungen liegen in `Fontarium.ini` neben dem Plugin (in `%APPDATA%\Font
 
 ## Sprachen
 
-Fontarium gibt es auf Englisch, Deutsch, Spanisch, Französisch, Russisch, Ukrainisch, Chinesisch (vereinfacht), Hindi, Portugiesisch und Persisch. Es folgt der Windows-Anzeigesprache; eine andere Sprache wählst du über die Registerkarte *Einstellungen* (*Sprache der Oberfläche*) oder mit `lang=<Name oder Kürzel>` in der `Fontarium.ini` (zum Beispiel `Persian` oder `fa`; `auto` folgt Windows).
+Fontarium gibt es auf Englisch, Deutsch, Spanisch, Französisch, Russisch, Ukrainisch, Chinesisch (vereinfacht), Hindi, Portugiesisch und Persisch. Es folgt der Windows-Anzeigesprache; eine andere Sprache wählst du über die Registerkarte *Einstellungen* (*Sprache der Oberfläche*) oder mit `lang=<Name oder Kürzel>` in der `Fontarium.ini` (zum Beispiel `Persian` oder `fa`; `auto` folgt Windows, `tc` der Sprache von Total Commander – auch als Eintrag *Wie Total Commander*).
 
 Die Texte stehen in einfachen `.lng`-Dateien im Ordner `Languages`. Für eine neue Sprache kopierst du `Languages\Template.lng`, übersetzt die rechten Seiten und speicherst sie unter einem neuen Namen – sie erscheint dann in der Sprachliste.
 
